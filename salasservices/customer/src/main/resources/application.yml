@@ -9,8 +9,8 @@ spring:
     password: 'password'
   jpa:
     hibernate:
-      ddl-auto: update
       dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: update
       show-sql: 'true'
 eureka:
   client:
